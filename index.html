@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles.css" />
+<style>
+    .Visible {
+    background: #eee;
+    padding: 20px;
+}
+
+#expand {
+    display: none;
+    padding: 20px;
+    background: #eee;
+    /* transition: 0.5s; */
+}
+body {
+    /* background: #000; */
+}
+.circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.red {
+    background: rgb(131, 21, 21);
+}
+.blue {
+    background: rgb(28, 30, 143);
+}
+.green {
+    background: rgb(6, 177, 77);
+}
+</style>
+</head>
+
+<body>
+
+<div id="Visible">
+    <h2>Click to show</h2>
+</div>
+<div id="expand">
+    <p>Hello ,How are you</p>
+    <p>I am great Sir</p>
+</div>
+
+<div id="circle" class="circle red"></div>
+<div  id="circle" class="circle blue"></div>
+<div  id="circle" class="circle green"></div>
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

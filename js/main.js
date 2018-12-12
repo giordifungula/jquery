@@ -1,0 +1,14 @@
+$(document).ready(function(){
+   $('#Visible').click(function(){
+        $('#expand').slideToggle('slow');
+   });
+   $('.red').click(function(){
+        $('.red').fadeOut()
+   });
+   $('.blue').click(function(){
+    $('.blue').fadeOut()
+    });
+    $('.green').click(function(){
+        $('.green').fadeOut()
+    });
+});
